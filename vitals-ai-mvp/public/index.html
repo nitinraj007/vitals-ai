@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VITALS.AI — Early Health Risk Detection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================================================ LANDING -->
+<div id="landing-page">
+  <nav class="lnav" id="main-nav">
+    <div class="logo"><svg class="lhex" viewBox="0 0 24 24" fill="none"><polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="currentColor" stroke-width="1.5" fill="rgba(0,212,176,0.1)"/></svg>VITALS<span class="la">.AI</span></div>
+    <div class="lnav-links"><a href="#how">How It Works</a><a href="#detect">Detection</a><a href="#privacy">Privacy</a><a href="#pricing">Pricing</a></div>
+    <div class="lnav-cta">
+      <button class="btn-g" id="open-login-nav">Log In</button>
+      <button class="btn-p" id="open-signup-nav">Get Started Free</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
+    <div class="hero-left">
+      <div class="pill"><span class="pdot"></span>AI-Powered · Voice + Vision + Behavior</div>
+      <h1 class="hero-h1">Detect Health Risks<br/><em class="grad-text">Before Symptoms</em><br/>Even Appear</h1>
+      <p class="hero-sub">VITALS.AI analyzes your voice, facial signals, and lifestyle patterns — delivering early warning <strong>12–18 months</strong> before disease develops. No hospital. No needles. Just 30 seconds.</p>
+      <div class="hero-btns">
+        <button class="btn-p btn-lg" id="hero-signup-btn">Start Your Free Health Check <span class="arr">→</span></button>
+        <button class="btn-g btn-lg" id="hero-login-btn">Already have an account</button>
+      </div>
+      <div class="trust-row">
+        <span>🛡 HIPAA-ready</span><span>🧠 85–94% accuracy</span><span>🔇 Audio never stored</span><span>⚡ 5-sec results</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hcard">
+        <div class="hcard-top"><div class="hdots"><span style="background:#ef4444"></span><span style="background:#f59e0b"></span><span style="background:#10b981"></span></div><span class="hcard-title">VITALS.AI Live Analysis</span><span class="hlive">● LIVE</span></div>
+        <div class="hcard-score">
+          <div class="sring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="9"/><circle cx="50" cy="50" r="40" fill="none" stroke="url(#rg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="251.2" stroke-dashoffset="70"/><defs><linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00d4b0"/><stop offset="100%" stop-color="#7c6eff"/></linearGradient></defs></svg><div class="sring-num"><span>72</span><sup>%</sup></div></div>
+          <div class="smeta"><div class="sml">Overall Risk Score</div><div class="sbadge mod">Moderate Risk</div><div class="sconf">Confidence: 89%</div></div>
+        </div>
+        <div class="hbars">
+          <div class="hbar-row"><span>❤️ Cardio</span><div class="hbt"><div class="hbf" style="width:68%;background:linear-gradient(90deg,#f97316,#ef4444)"></div></div><span>68%</span></div>
+          <div class="hbar-row"><span>🧠 Neuro</span><div class="hbt"><div class="hbf" style="width:35%;background:linear-gradient(90deg,#00d4b0,#7c6eff)"></div></div><span>35%</span></div>
+          <div class="hbar-row"><span>😔 Mental</span><div class="hbt"><div class="hbf" style="width:55%;background:linear-gradient(90deg,#f59e0b,#f97316)"></div></div><span>55%</span></div>
+          <div class="hbar-row"><span>🫁 Resp</span><div class="hbt"><div class="hbf" style="width:28%;background:linear-gradient(90deg,#00d4b0,#10b981)"></div></div><span>28%</span></div>
+          <div class="hbar-row"><span>😴 Sleep</span><div class="hbt"><div class="hbf" style="width:72%;background:linear-gradient(90deg,#f97316,#ef4444)"></div></div><span>72%</span></div>
+        </div>
+        <div class="hai"><span>🤖</span><p>Voice stress elevated. Sleep disruption detected. Preventive consultation recommended.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-band">
+    <div class="stats-inner">
+      <div class="si"><div class="sn">100M<sup>+</sup></div><div class="sd">Undiagnosed chronic cases in India</div></div>
+      <div class="sdiv"></div>
+      <div class="si"><div class="sn">₹35L<sup>Cr</sup></div><div class="sd">Annual preventable healthcare burden</div></div>
+      <div class="sdiv"></div>
+      <div class="si"><div class="sn">1:1500</div><div class="sd">Doctor-to-patient ratio in India</div></div>
+      <div class="sdiv"></div>
+      <div class="si"><div class="sn">12–18<sup>mo</sup></div><div class="sd">Earlier detection vs traditional diagnosis</div></div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="lsec bg2" id="how">
+    <div class="lsec-wrap">
+      <div class="stag">The Process</div>
+      <h2 class="sh2">Four Inputs. One AI Report.</h2>
+      <p class="sp">VITALS.AI fuses four data streams into a single actionable risk analysis in under 5 seconds.</p>
+      <div class="steps">
+        <div class="step-c"><div class="stepn">01</div><div class="stepico">🎙️</div><h3>Record Your Voice</h3><p>Speak naturally for 30 seconds. AI extracts 40+ biomarkers — pitch, jitter, breathing rhythms, and vocal fatigue signals.</p></div>
+        <div class="step-arr">→</div>
+        <div class="step-c"><div class="stepn">02</div><div class="stepico">👁️</div><h3>Vision Check</h3><p>10-second selfie video. MediaPipe scans facial landmarks locally on your device. Zero face data is ever uploaded.</p></div>
+        <div class="step-arr">→</div>
+        <div class="step-c"><div class="stepn">03</div><div class="stepico">📋</div><h3>5–10 Questions</h3><p>Adaptive AI questions that branch based on your answers — energy, sleep quality, stress, fatigue type — all in minutes.</p></div>
+        <div class="step-arr">→</div>
+        <div class="step-c"><div class="stepn">04</div><div class="stepico">📊</div><h3>Risk Report</h3><p>Mistral 7B AI (running offline) fuses all signals into an explainable risk score across 7 health categories.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETECTION -->
+  <section class="lsec" id="detect">
+    <div class="lsec-wrap">
+      <div class="stag">What We Detect</div>
+      <h2 class="sh2">7 Risk Categories. Early Stage Only.</h2>
+      <p class="sp">We detect risk patterns months before symptoms appear — giving you time to act preventively.</p>
+      <div class="dgrid">
+        <div class="dc"><div class="dico" style="background:rgba(139,92,246,0.12);color:#8b5cf6">🧠</div><h3>Neurological</h3><p>Parkinson's risk, cognitive decline from voice tremor and speech rate analysis</p><span class="dacc">89–94%</span></div>
+        <div class="dc"><div class="dico" style="background:rgba(239,68,68,0.12);color:#ef4444">❤️</div><h3>Cardiovascular</h3><p>Heart disease risk, hypertension signals from breathing and vocal patterns</p><span class="dacc">87–92%</span></div>
+        <div class="dc"><div class="dico" style="background:rgba(245,158,11,0.12);color:#f59e0b">🩺</div><h3>Metabolic</h3><p>Diabetes risk, metabolic syndrome markers from lifestyle data</p><span class="dacc">85–90%</span></div>
+        <div class="dc"><div class="dico" style="background:rgba(6,182,212,0.12);color:#06b6d4">😔</div><h3>Mental Health</h3><p>Depression, anxiety, burnout detected through vocal tone and speech patterns</p><span class="dacc">88–93%</span></div>
+        <div class="dc"><div class="dico" style="background:rgba(16,185,129,0.12);color:#10b981">🫁</div><h3>Respiratory</h3><p>Asthma, COPD signals from breathing quality and cough patterns</p><span class="dacc">86–91%</span></div>
+        <div class="dc"><div class="dico" style="background:rgba(99,102,241,0.12);color:#6366f1">😴</div><h3>Sleep & Recovery</h3><p>Sleep quality, fatigue patterns from energy levels and lifestyle tracking</p><span class="dacc">85–90%</span></div>
+        <div class="dc dc-wide"><div class="dico" style="background:rgba(0,212,176,0.12);color:#00d4b0">💪</div><h3>General Wellness</h3><p>Composite health trajectory built from all seven categories — your complete health fingerprint</p><span class="dacc">87–92%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="lsec bg2">
+    <div class="lsec-wrap">
+      <div class="why-wrap">
+        <div class="why-left">
+          <div class="stag">Why VITALS.AI</div>
+          <h2 class="sh2">We're not replacing doctors.<br/>We're the layer <em class="grad-text">before</em> them.</h2>
+          <p>Traditional healthcare catches disease after it develops. VITALS.AI catches risk signals months before symptoms appear.</p>
+          <ul class="wlist">
+            <li><span class="chk">✓</span>No expensive lab tests (save ₹50K+ per year)</li>
+            <li><span class="chk">✓</span>Works on any phone, any browser</li>
+            <li><span class="chk">✓</span>Fully offline AI inference (Ollama / Mistral 7B)</li>
+            <li><span class="chk">✓</span>Results in under 5 seconds</li>
+            <li><span class="chk">✓</span>Continuous trend monitoring over time</li>
+          </ul>
+          <button class="btn-p" id="why-signup-btn">Try It Free Today →</button>
+        </div>
+        <div class="why-right">
+          <div class="cmp-pair">
+            <div class="cmp old"><div class="cmph">❌ Traditional</div><div class="cmpf"><div class="cs">No symptoms → Ignored</div><div class="ca">↓</div><div class="cs bad">Stage 3–4 disease</div><div class="ca">↓</div><div class="cs bad">Expensive treatment</div></div></div>
+            <div class="cmp new"><div class="cmph">✅ VITALS.AI</div><div class="cmpf"><div class="cs">AI monitors continuously</div><div class="ca">↓</div><div class="cs good">Early signals detected</div><div class="ca">↓</div><div class="cs good">Better outcomes ✓</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section class="lsec" id="privacy">
+    <div class="lsec-wrap">
+      <div class="stag">Privacy First</div>
+      <h2 class="sh2">Your data is yours. Always.</h2>
+      <div class="pgrid">
+        <div class="pc"><div class="pico">🗑️</div><h3>Audio Auto-Deleted</h3><p>Voice recordings deleted after 1 hour. Raw audio is never stored anywhere.</p></div>
+        <div class="pc"><div class="pico">📵</div><h3>Local Vision Processing</h3><p>Face video processed entirely on your device. No face data is ever uploaded.</p></div>
+        <div class="pc"><div class="pico">🔒</div><h3>End-to-End Encrypted</h3><p>AES-256 at rest, TLS 1.3 in transit. Your health data is fully protected.</p></div>
+        <div class="pc"><div class="pico">🤝</div><h3>HIPAA &amp; GDPR Ready</h3><p>Built to international healthcare privacy standards. Doctor links expire in 7 days.</p></div>
+        <div class="pc"><div class="pico">🧠</div><h3>Offline AI Inference</h3><p>Mistral 7B runs locally via Ollama. Your voice never reaches a cloud AI server.</p></div>
+        <div class="pc"><div class="pico">🎛️</div><h3>You Control Sharing</h3><p>You decide what to share with your doctor. Zero third-party access by default.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="lsec bg2" id="pricing">
+    <div class="lsec-wrap">
+      <div class="stag">Simple Pricing</div>
+      <h2 class="sh2">Start free. Upgrade when ready.</h2>
+      <div class="pricing-row">
+        <div class="price-c">
+          <div class="pname">Free</div><div class="pamt">₹0<span>/month</span></div>
+          <ul class="pfeats"><li class="on">2 health checks/month</li><li class="on">Basic risk scores</li><li class="on">View history</li><li class="off">Multi-modal analysis</li><li class="off">AI explanation</li><li class="off">Doctor sharing</li></ul>
+          <button class="btn-g pfbtn" id="pricing-free-btn">Get Started Free</button>
+        </div>
+        <div class="price-c pfeat">
+          <div class="pbadge">Most Popular</div>
+          <div class="pname">VITALS Plus</div><div class="pamt">₹499<span>/month</span></div>
+          <ul class="pfeats"><li class="on">Unlimited health checks</li><li class="on">Full multi-modal analysis</li><li class="on">AI explanation &amp; reasoning</li><li class="on">Doctor sharing (secure link)</li><li class="on">Trend tracking over time</li><li class="on">Priority support</li></ul>
+          <button class="btn-p pfbtn" id="pricing-plus-btn">Start Plus — ₹499/mo</button>
+        </div>
+        <div class="price-c">
+          <div class="pname">VITALS Pro</div><div class="pamt">₹1,999<span>/month</span></div>
+          <ul class="pfeats"><li class="on">Everything in Plus</li><li class="on">Monthly video health coaching</li><li class="on">Family account (3 people)</li><li class="on">Advanced analytics</li><li class="on">Hospital integrations</li><li class="on">Dedicated support</li></ul>
+          <button class="btn-g pfbtn" id="pricing-pro-btn">Start Pro — ₹1,999/mo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="final-cta">
+    <div class="orb o-cta1"></div><div class="orb o-cta2"></div>
+    <div class="fca-inner">
+      <h2>Your health can't wait for symptoms.</h2>
+      <p>Join thousands of Indians getting ahead of health risks — before they become problems.</p>
+      <button class="btn-p btn-xl" id="final-cta-btn">Start Your Free Health Check →</button>
+      <p class="cta-note">No credit card required · Results in under 5 seconds</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="fb"><div class="logo" style="margin-bottom:12px"><svg class="lhex" viewBox="0 0 24 24" fill="none"><polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="currentColor" stroke-width="1.5" fill="rgba(0,212,176,0.1)"/></svg>VITALS<span class="la">.AI</span></div><p>AI-powered early health risk detection. Built for preventive healthcare at scale.</p><p class="fdisc">⚠️ VITALS.AI is a screening tool, not a medical diagnostic device. Always consult a qualified healthcare professional.</p></div>
+      <div class="fcol"><h4>Product</h4><a href="#how">How It Works</a><a href="#detect">Detection</a><a href="#pricing">Pricing</a><a href="#privacy">Privacy</a></div>
+      <div class="fcol"><h4>Company</h4><a href="#">About</a><a href="#">For Hospitals</a><a href="#">Research</a><a href="#">Support</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 VITALS.AI · Privacy First · People Focused · Impact Driven</p></div>
+  </footer>
+</div>
+<!-- /LANDING -->
+
+
+<!-- ============================================================ MODALS -->
+<div id="modal-overlay" class="hidden">
+  <div class="modal-bd" id="modal-backdrop"></div>
+
+  <div class="mbox" id="login-modal">
+    <button class="mclose" id="close-modal">✕</button>
+    <div class="mbrand"><svg class="lhex sm" viewBox="0 0 24 24" fill="none"><polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="currentColor" stroke-width="1.5" fill="rgba(0,212,176,0.15)"/></svg>VITALS<span class="la">.AI</span></div>
+    <h2 class="mh2">Welcome back</h2>
+    <p class="msub">Log in to your health dashboard</p>
+    <div class="mform">
+      <div class="ig"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com" autocomplete="email"/></div>
+      <div class="ig"><label for="password">Password</label><input id="password" type="password" placeholder="Your password" autocomplete="current-password"/></div>
+      <button class="btn-p btn-full" id="login-btn">Sign In</button>
+      <p id="auth-status" class="fmsg"></p>
+    </div>
+    <p class="mswitch">Don't have an account? <button class="lbtn" id="switch-to-signup">Sign up free →</button></p>
+  </div>
+
+  <div class="mbox hidden" id="signup-modal">
+    <button class="mclose" id="close-modal-signup">✕</button>
+    <div class="mbrand"><svg class="lhex sm" viewBox="0 0 24 24" fill="none"><polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="currentColor" stroke-width="1.5" fill="rgba(0,212,176,0.15)"/></svg>VITALS<span class="la">.AI</span></div>
+    <h2 class="mh2">Create account</h2>
+    <p class="msub">Start your early health monitoring today — free</p>
+    <div class="mform">
+      <div class="ig"><label for="name">Full Name</label><input id="name" type="text" placeholder="Your name" autocomplete="name"/></div>
+      <div class="ig"><label for="email-su">Email</label><input id="email-su" type="email" placeholder="you@example.com" autocomplete="email"/></div>
+      <div class="ig"><label for="password-su">Password</label><input id="password-su" type="password" placeholder="Create a password" autocomplete="new-password"/></div>
+      <button class="btn-p btn-full" id="signup-btn">Create Free Account</button>
+      <p id="signup-status" class="fmsg"></p>
+    </div>
+    <p class="mswitch">Already have an account? <button class="lbtn" id="switch-to-login">Sign in →</button></p>
+  </div>
+</div>
+
+
+<!-- ============================================================ APP -->
+<div id="app-page" class="hidden">
+
+  <header class="app-hdr">
+    <div class="logo"><svg class="lhex sm" viewBox="0 0 24 24" fill="none"><polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="currentColor" stroke-width="1.5" fill="rgba(0,212,176,0.1)"/></svg>VITALS<span class="la">.AI</span></div>
+    <nav class="app-tabs" role="tablist">
+      <button class="tab active" data-tab="check" role="tab">⚡ New Check</button>
+      <button class="tab" data-tab="dashboard" role="tab">📊 Dashboard</button>
+      <button class="tab" data-tab="report" role="tab">📄 Report</button>
+      <button class="tab" data-tab="history" role="tab">🕐 History</button>
+    </nav>
+    <div class="app-right">
+      <span class="uchip">👤 <span id="user-name-display"></span></span>
+      <button class="btn-g btn-xs" id="print-report">🖨 Print</button>
+      <button class="btn-xs dbtn" id="logout-btn">Log Out</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+
+    <!-- ── CHECK TAB ──────────────────────────────────── -->
+    <div class="pane active" id="tab-check">
+      <div class="pane-hd"><h2>New Health Check</h2><p>Complete all steps for the most accurate multi-modal analysis</p></div>
+
+      <div class="wz-bar">
+        <div class="wz active" data-s="1"><div class="wzd">1</div><span>Voice</span></div>
+        <div class="wz-line"></div>
+        <div class="wz" data-s="2"><div class="wzd">2</div><span>Vision</span></div>
+        <div class="wz-line"></div>
+        <div class="wz" data-s="3"><div class="wzd">3</div><span>Symptoms</span></div>
+        <div class="wz-line"></div>
+        <div class="wz" data-s="4"><div class="wzd">4</div><span>Behavior</span></div>
+        <div class="wz-line"></div>
+        <div class="wz" data-s="5"><div class="wzd">5</div><span>Analyze</span></div>
+      </div>
+
+      <div class="inp-grid">
+        <!-- VOICE -->
+        <div class="inp-card">
+          <div class="icard-hd"><span class="iico">🎙️</span><div><h3>Voice Capture</h3><span class="treq">Required</span></div></div>
+          <p>Speak naturally for up to 30 seconds. AI extracts 40+ biomarkers from your voice patterns.</p>
+          <div class="wave-viz" id="voice-viz">
+            <div class="wvb"></div><div class="wvb"></div><div class="wvb"></div><div class="wvb"></div>
+            <div class="wvb"></div><div class="wvb"></div><div class="wvb"></div><div class="wvb"></div><div class="wvb"></div>
+          </div>
+          <div class="card-btns">
+            <button id="voice-start" class="btn-p btn-sm">▶ Start Recording</button>
+            <button id="voice-stop" class="btn-g btn-sm">■ Stop</button>
+          </div>
+          <textarea id="voice-text" rows="2" placeholder="Optional: how are you feeling today?"></textarea>
+          <p id="voice-status" class="sline"></p>
+        </div>
+
+        <!-- VISION -->
+        <div class="inp-card">
+          <div class="icard-hd"><span class="iico">👁️</span><div><h3>Vision Capture</h3><span class="topt">Optional</span></div></div>
+          <p>10-second face video. Processed locally on your device — never uploaded to any server.</p>
+          <video id="preview" class="vid-preview" autoplay muted playsinline></video>
+          <div class="card-btns">
+            <button id="vision-start" class="btn-p btn-sm">▶ Start Camera</button>
+            <button id="vision-stop" class="btn-g btn-sm">■ Stop</button>
+          </div>
+          <p id="vision-status" class="sline"></p>
+        </div>
+
+        <!-- SYMPTOMS -->
+        <div class="inp-card">
+          <div class="icard-hd"><span class="iico">📋</span><div><h3>Symptom Intake</h3><span class="treq">Required</span></div></div>
+          <p>Rate your current state — these signals directly influence your risk calculation.</p>
+          <div class="sliders">
+            <div class="sl"><div class="sll"><span>Energy Level</span><span class="slv" id="energyLevel-val">5</span></div><input id="energyLevel" type="range" min="1" max="10" value="5"/><div class="sle"><span>Low</span><span>High</span></div></div>
+            <div class="sl"><div class="sll"><span>Sleep Quality</span><span class="slv" id="sleepQuality-val">5</span></div><input id="sleepQuality" type="range" min="1" max="10" value="5"/><div class="sle"><span>Poor</span><span>Great</span></div></div>
+            <div class="sl"><div class="sll"><span>Stress Level</span><span class="slv" id="symptomStress-val">5</span></div><input id="symptomStress" type="range" min="1" max="10" value="5"/><div class="sle"><span>Low</span><span>High</span></div></div>
+            <div class="sl"><div class="sll"><span>Mood</span><span class="slv" id="symptomMood-val">5</span></div><input id="symptomMood" type="range" min="1" max="10" value="5"/><div class="sle"><span>Low</span><span>High</span></div></div>
+          </div>
+          <div class="ig mt8"><label for="fatigueType">Fatigue Type</label><select id="fatigueType" class="sel"><option value="physical">Physical Exhaustion</option><option value="mental">Mental Fatigue</option><option value="both">Both Physical &amp; Mental</option></select></div>
+        </div>
+
+        <!-- BEHAVIOR -->
+        <div class="inp-card">
+          <div class="icard-hd"><span class="iico">🧠</span><div><h3>Behavior Tracking</h3><span class="treq">Required</span></div></div>
+          <p>Your daily habits are key signals for long-term health risk detection.</p>
+          <div class="sliders">
+            <div class="sl"><div class="sll"><span>Sleep Hours</span><div><span class="slv" id="sleepHours-val">7</span><span class="slu">hrs</span></div></div><input id="sleepHours" type="range" min="0" max="14" value="7"/><div class="sle"><span>0h</span><span>14h</span></div></div>
+            <div class="sl"><div class="sll"><span>Stress Level</span><span class="slv" id="behaviorStress-val">5</span></div><input id="behaviorStress" type="range" min="1" max="10" value="5"/><div class="sle"><span>Low</span><span>High</span></div></div>
+            <div class="sl"><div class="sll"><span>Exercise</span><div><span class="slv" id="exerciseMinutes-val">20</span><span class="slu">min</span></div></div><input id="exerciseMinutes" type="range" min="0" max="180" value="20"/><div class="sle"><span>0</span><span>3hrs</span></div></div>
+            <div class="sl"><div class="sll"><span>Mood</span><span class="slv" id="behaviorMood-val">5</span></div><input id="behaviorMood" type="range" min="1" max="10" value="5"/><div class="sle"><span>Low</span><span>High</span></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="analyze-cta">
+        <button id="run-check" class="btn-p btn-xl">⚡ Analyze Multi-Modal Risk</button>
+        <p id="check-status" class="sline center"></p>
+        <p class="anote">Screening aid only · Not a medical diagnosis · Always consult a healthcare professional</p>
+      </div>
+    </div>
+
+    <!-- ── DASHBOARD TAB ──────────────────────────────── -->
+    <div class="pane" id="tab-dashboard">
+      <div class="pane-hd"><h2>Health Dashboard</h2><p>Your latest analysis results at a glance</p></div>
+      <div id="dashboard-card">
+        <div class="dash-tiles">
+          <div class="dtile"><p class="dtile-lbl">Combined Risk Score</p><strong id="dash-combined">—</strong></div>
+          <div class="dtile"><p class="dtile-lbl">Risk Level</p><strong id="dash-level">—</strong></div>
+          <div class="dtile"><p class="dtile-lbl">AI Confidence</p><strong id="dash-confidence">—</strong></div>
+          <div class="dtile"><p class="dtile-lbl">Last Check</p><strong id="dash-date" class="dash-date-val">—</strong></div>
+        </div>
+        <p class="empty-note" id="dash-empty">Run your first health check to populate this dashboard.</p>
+        <!-- Category mini-bars (rendered by JS) -->
+        <div id="dash-cat-bars" class="dash-cat-bars"></div>
+      </div>
+    </div>
+
+    <!-- ── REPORT TAB ──────────────────────────────────── -->
+    <div class="pane" id="tab-report">
+      <div id="report-card">
+        <div class="pane-hd"><h2>Health Report</h2><p class="muted">Screening insights only — not a medical diagnosis</p></div>
+
+        <!-- Analysis method panel -->
+        <div class="inf-panel" id="inference-panel">
+          <div class="inf-hd">
+            <div class="inf-hd-left">
+              <span id="active-layer-badge" class="lbadge lu">Pending</span>
+              <div class="inf-title-wrap">
+                <h3 id="inf-title">Analysis Method</h3>
+                <p id="active-layer-copy" class="muted">Run analysis to view.</p>
+              </div>
+            </div>
+            <div id="layer-warnings"></div>
+          </div>
+        </div>
+
+        <!-- Score + AI summary -->
+        <div class="report-hero">
+          <div class="gauge-col">
+            <div class="gauge-wrap">
+              <svg class="gauge-svg" viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="80" class="gauge-track"/>
+                <circle cx="100" cy="100" r="80" class="gauge-fill" id="gauge-circle" style="stroke-dashoffset:502.4"/>
+                <defs><linearGradient id="gg" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00d4b0"/><stop offset="100%" stop-color="#7c6eff"/></linearGradient></defs>
+              </svg>
+              <div class="gauge-inner">
+                <span class="gauge-num" id="gauge-num">0</span>
+                <span class="gauge-pct">%</span>
+              </div>
+            </div>
+            <div class="gauge-label-wrap">
+              <span id="gauge-level-badge" class="glbadge">No report yet</span>
+              <p id="risk-label" class="gauge-sub"></p>
+            </div>
+          </div>
+          <div class="ai-col">
+            <div class="ai-hd">🤖 AI Analysis Summary</div>
+            <p id="assistant-summary" class="report-copy">Run your first analysis to view the AI summary.</p>
+            <ul id="assistant-recommendations" class="reco-list"></ul>
+          </div>
+        </div>
+
+        <!-- Modality scores -->
+        <div class="mod-row" id="modality-row"></div>
+
+        <!-- Category breakdown -->
+        <div class="section-label">7 Category Risk Breakdown</div>
+        <div id="category-grid" class="cat-grid"></div>
+
+        <!-- Category insights -->
+        <div class="section-label">Guidance &amp; Recommended Actions</div>
+        <div id="category-insights" class="ins-grid"></div>
+
+        <p id="report-disclaimer" class="rdisc">No report generated yet. Complete a health check to view results.</p>
+      </div>
+    </div>
+
+    <!-- ── HISTORY TAB ──────────────────────────────────── -->
+    <div class="pane" id="tab-history">
+      <div class="pane-hd"><h2>Check History</h2><p>Track your health trends over time</p></div>
+      <div class="hist-top"><button id="refresh-history" class="btn-g btn-sm">↻ Refresh</button></div>
+      <div id="history-list"><p class="muted">No history yet. Run your first check.</p></div>
+    </div>
+
+  </main>
+</div>
+<!-- /APP -->
+
+<!-- PRINT -->
+<section id="print-view" class="print-view">
+  <h1>VITALS.AI Screening Report</h1>
+  <p id="print-meta"></p><p id="print-summary"></p>
+  <div id="print-categories"></div>
+  <ol id="print-recommendations"></ol>
+  <p id="print-disclaimer"></p>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
